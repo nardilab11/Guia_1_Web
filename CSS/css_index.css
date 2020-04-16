@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray; 
+}
+
+.encabezado{
+    text-align: center;
+    font-family: courier;
+}
+#titulo{
+    font-size: 150%;
+}
+#barra{
+    padding: 20px;
+}
+#tablero{
+    padding-top: 20px; 
+    font-size: 150%;
+    color: red;
+}
+#nombre_tablero{
+    padding-top: 20px;
+    font-size: 150%;
+}
+#pistola{
+    border-radius: 8px;
+}
+#descr_tablero{
+    padding: 20px;
+    font-family: verdana;
+    font-size: 120%;
+    text-align: justify;
+}
+#noticias{
+    text-align: right;
+}
+#contacto{
+    padding: 20px;
+    text-align: center;
+    font-size: 110%;
+}
