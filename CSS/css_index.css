@@ -1,7 +1,15 @@
-body{
-    background-color: lightgray; 
+*{
+    padding: 0px;
+    margin: 0px;
 }
-
+body{
+    background-color: orange; 
+}
+#caja1{
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+}
 .encabezado{
     text-align: center;
     font-family: courier;
@@ -9,11 +17,8 @@ body{
 #titulo{
     font-size: 150%;
 }
-#barra{
-    padding: 20px;
-}
 #tablero{
-    padding-top: 20px; 
+    margin-top: 150px; 
     font-size: 150%;
     color: red;
 }
@@ -37,4 +42,23 @@ body{
     padding: 20px;
     text-align: center;
     font-size: 110%;
+    background-color: white;
+}
+#caja2{
+    margin-top: 130px;
+    float: left;
+    width: 50%
+}
+#caja3{
+    margin-top: 130px;
+    float: right;
+    width: 50%;
+}
+#caja4{
+    padding-top: 40px;
+}
+#imgpistola{
+    float: right;
+    width: 100%;
+    margin-left: 50px;
 }
